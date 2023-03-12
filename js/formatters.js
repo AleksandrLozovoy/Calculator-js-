@@ -3,3 +3,8 @@ export const percentFormatter = new Intl.NumberFormat("ru-Ru", {
   maximumFractionDigits: 3,
 });
 
+export const priceFormatter = new Intl.NumberFormat("ru-Ru", {
+  style: "currency",
+  currency: "RUB",
+  maximumFractionDigits: 0,
+});
